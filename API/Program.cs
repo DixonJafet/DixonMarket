@@ -7,7 +7,7 @@ using Microsoft.Data.SqlClient;
 var builder = WebApplication.CreateBuilder(args);
 var allowedOrigins = (builder.Configuration["Cors:AllowedOrigins"]
         ?? Environment.GetEnvironmentVariable("MARKETDIXON_CORS_ORIGINS")
-        ?? "http://localhost:5173;http://127.0.0.1:5173")
+        ?? "http://localhost:5173;http://127.0.0.1:5173;https://dixonmarket.vercel.app;https://vercel.com")
     .Split(';', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
 builder.Services.AddCors(options =>
     options.AddDefaultPolicy(policy =>
