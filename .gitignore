@@ -30,3 +30,4 @@ appsettings.*.json
 *.log
 Thumbs.db
 Desktop.ini
+.test
