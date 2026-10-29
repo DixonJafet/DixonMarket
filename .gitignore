@@ -1,0 +1,32 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+variables.txt
+*.publishSettings
+*.publishsettings
+credentials.txt
+appsettings.*.json
+
+# Local data and downloaded product images
+/ProductImages/
+/TempFiles/
+/Instrucctions.txt
+/Instructions.txt
+
+# .NET build outputs and IDE files
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+
+# JavaScript dependencies and generated output
+**/node_modules/
+**/dist/
+
+# Logs and operating-system files
+*.log
+Thumbs.db
+Desktop.ini
