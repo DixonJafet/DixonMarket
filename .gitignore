@@ -13,7 +13,7 @@ appsettings.*.json
 /TempFiles/
 /Instrucctions.txt
 /Instructions.txt
-/API.test
+/API.Test
 
 # .NET build outputs and IDE files
 **/bin/
